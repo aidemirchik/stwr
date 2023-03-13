@@ -17,11 +17,11 @@ const StartshipPage = () => {
     )
     const rightElement = (
     <StarshipItemDetails itemId={state.itemId}>
-             <Record label='Model' label_key='model'/>
-            <Record label='Manufacturer' label_key='manufacturer'/>
-            <Record label='Cost In Credits' label_key='costInCreditsr'/>       
-            <Record label='Length' label_key='length'/>       
-            <Record label='Crew' label_key='crew'/>       
+            <Record label='model' label_key='model'/>
+            <Record label='manufacturer' label_key='manufacturer'/>
+            <Record label='cost In Credits' label_key='costInCreditsr'/>       
+            <Record label='length' label_key='length'/>       
+            <Record label='crew' label_key='crew'/>       
     </StarshipItemDetails>
     )
 
